@@ -1,0 +1,3 @@
+C:\Bin\cmake-4.0.0\bin\cmake.exe -E rm -f CMakeFiles\gcrt.dir/objects.a
+C:\Bin\MinGW\bin\ar.exe qc CMakeFiles\gcrt.dir/objects.a @CMakeFiles\gcrt.dir\objects1.rsp
+C:\Bin\MinGW\bin\g++.exe  -g -g -Wl,--whole-archive CMakeFiles\gcrt.dir/objects.a -Wl,--no-whole-archive -o ..\gcrt.exe -Wl,--out-implib,libgcrt.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\gcrt.dir\linkLibs.rsp

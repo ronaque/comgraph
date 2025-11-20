@@ -1,0 +1,54 @@
+<RT3>
+    <!--- The Camera -->
+    <lookat look_from="0 -90 30" look_at="0 0 0" up="0 1 0" />
+    <!-- <lookat look_from="8 11 -9" look_at="0 1 0" up="0 1 0" /> -->
+    <camera type="perspective" fovy="25" />
+    <integrator type="blinn_phong" depth="2" />
+    <film type="image" w_res="800" h_res="600"
+        filename="teapot_hires_O.png" img_type="png"
+        gamma_corrected="false" />
+    <!-- <integrator type="blinn_phong" depth="2" />
+    <accelerator type="bvh" split_method="middle" max_prims_per_node="4" />
+    <sampler type="stratified" x_samples="4" y_samples="4" dimensions="1" jitter="on" />
+    <filter type="gaussian" alpha="2" x_width="2" y_width="2" />
+
+    <film type="image" x_res="900" y_res="450" filename="teapot_hires_P.png" img_type="png"
+    gamma_corrected="no" />
+    <include filename="../scenes/projects_references/proj_06_triangle/teapot_scene/teapot_geometry.xml"
+    /> -->
+
+    <!-- <lookat look_from="0 0 30" look_at="0 0 0" up="0 1 0" /> -->
+    <!-- <camera type="orthographic" screen_window="-40 40 -20 20" /> -->
+
+
+    <!-- The Scene -->
+    <world_begin />
+    <!-- The Background -->
+    <background type="4_colors" bl="153 204 255" tl="18 10 143" tr="18 10 143" br="153 204 255" />
+
+    <!-- Lights -->
+    <light_source type="directional" I="0.9 0.6 0.5" scale="1 1 1" from="-5 -5 10" to="0 0 0" />
+    <light_source type="directional" I="0.9 0.9 0.9" scale="1 1 1" from=" 5 -5 10" to="0 0 0" />
+
+
+    <!-- Material Library -->
+    <include filename="../scenes/materials.xml" />
+
+    <!-- Objects -->
+    <object name="jade" type="trianglemesh" filename="../scenes/objects/teapot.obj"
+        reverse_vertex_order="false" backface_cull_on="false" />
+
+    <!-- <object type="sphere" name="redish" radius="10" center="0 0 10" /> -->
+
+    <object type="trianglemesh"
+        name="indigo"
+        ntriangles="2"
+        vertices="-30 30.5 -1  30 30.5 -1  30 -30.5 -1  -30 -30.5 -1"
+        indices="0 1 2   0 2 3"
+        normals="0 0 1  0 0 1  0 0 1  0 0 1 "
+        reverse_vertex_order="false"
+        backface_cull_on="false" />
+
+    <world_end />
+
+</RT3>

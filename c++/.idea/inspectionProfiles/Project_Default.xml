@@ -1,0 +1,56 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="GRAMMAR_ERROR" enabled_by_default="false" />
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="models.models.Cenario.objects" />
+          <option value="models.models.Cenario.DoesNotExist" />
+          <option value="models.op_sequenciamento.EstruturaProdutoProcessoCaracteristica.objects" />
+          <option value="models.models.CenarioJSON.objects" />
+          <option value="models.op_sequenciamento.ProdutoOP.objects" />
+          <option value="models.op_sequenciamento.NecProduto.DoesNotExist" />
+          <option value="models.op_sequenciamento.InformacoesSequenciamento.DoesNotExist" />
+          <option value="models.op_sequenciamento.NecProduto.objects" />
+          <option value="models.model_cache_graphics.Graphics.objects" />
+          <option value="Exception.message" />
+          <option value="models.op_sequenciamento.MRPParametros.objects" />
+          <option value="models.op_sequenciamento.MaquinaCaracteristica.objects" />
+          <option value="models.op_sequenciamento.AcondicionamentoTipoCaracteristica.objects" />
+          <option value="models.op_sequenciamento.MaquinaMPVolume.objects" />
+          <option value="models.processo_execucao.ProdutoOPProcessoMaquina.objects" />
+          <option value="models.op_sequenciamento.EstruturaProdutoProcessoMaquina.objects" />
+          <option value="models.saidas.NecProdutoOPProcessoMPEstoque.objects" />
+          <option value="models.saidas.NecProdutoOPProcessoMPOP.objects" />
+          <option value="models.op_sequenciamento.InformacoesSequenciamento.objects" />
+          <option value="models.op_sequenciamento.ProdutoEstoque.objects" />
+          <option value="models.op_sequenciamento.EstruturaProdutoProcesso.objects" />
+          <option value="models.op_sequenciamento.EstruturaProdutoProcessoMP.objects" />
+          <option value="models.util.PrioridadeDeProducao.objects" />
+          <option value="estoque.ppcp_planner.PPCPplan.total_to_produce" />
+          <option value="planejamento_textil.models.op_sequenciamento.NecProduto.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.MRPParametros.*" />
+          <option value="planejamento_textil.models.processo_execucao.ProdutoOPProcessoMP.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.ProdutoOP.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.ProdutoEstoque.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.Produto.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.EstruturaProdutoProcessoMP.*" />
+          <option value="planejamento_textil.models.saidas.NecProdutoMPOP.*" />
+          <option value="planejamento_textil.models.processo_execucao.ProdutoOPProcesso.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.MaquinaMPVolume.*" />
+          <option value="planejamento_textil.models.op_sequenciamento.EstruturaProdutoProcesso.*" />
+          <option value="planejamento_textil.models.saidas.NecProdutoOPProcessoMPOP.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>

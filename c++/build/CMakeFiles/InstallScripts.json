@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/cmake_install.cmake",
+		"C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_tinyxml2/cmake_install.cmake",
+		"C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_lodepng/cmake_install.cmake",
+		"C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

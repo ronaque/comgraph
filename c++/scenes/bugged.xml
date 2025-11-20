@@ -1,0 +1,66 @@
+<!-- Bugged for the scene boxlyd.xml where the circle is transparent when moving the camera -->
+<RT3>
+    <lookat look_from="5 35 0" look_at="0 20 0" up="0 1 0" />
+     <!-- <lookat look_from="5 35 5" look_at="0 14 0" up="0 1 0" /> -->
+    <camera type="perspective" fovy="45" />
+    <integrator type="blinn_phong" depth="1" />
+    <film type="image" w_res="1920" h_res="1080" filename="boxlyd.png" img_type="png"
+        gamma_corrected="true" />
+
+    <!-- Objects storage -->
+    <aggregator type="list" />
+
+    <!-- The Scene -->
+    <world_begin />
+
+    <!-- The Background -->
+    <background type="4_colors" bl="255 215 100" tl="255 189 100" tr="189 109 0" br="189 152 0" />
+
+    <!-- Lights -->
+    <light_source type="ambient" I="0.1 0.1 0.1" scale="0.5 0.5 0.5" />
+    <light_source type="directional" I="0.7 0.7 0.7" scale="0.4 0.4 0.4" from="-20 15 0" to="0 0 0" />
+    <light_source type="point" I="0.6 0.6 0.6" scale="0.4 0.4 0.4" from="0 1 0" />
+    <light_source type="spot" I="1.0 0.65 0" scale="1 1 1" from="-15 15 0" to="0 9 0" cutoff="15"
+        falloff="5" />
+    <light_source type="spot" I="1.0 0.65 0" scale="1 1 1" from="14 12 17" to="-5 0 -5 " cutoff="15"
+        falloff="5" />
+    <light_source type="spot" I="1.0 0.65 0" scale="1 1 1" from="-15 15 0" to="15 12 18" cutoff="35"
+        falloff="25" />
+    <light_source type="spot" I="1.0 0.65 0" scale="1 1 1" from="0 30 0" to="0 15 0" cutoff="35"
+        falloff="25" />
+
+    <!-- Material Library -->
+    <make_named_material type="blinn" name="gold" ambient="0.4 0.4 0.4" diffuse="1 0.65 0.0"
+        specular="0.8 0.6 0.2" glossiness="256" />
+    <make_named_material type="blinn" name="sand" ambient="0.4 0.4 0.4" diffuse="245 209 151"
+        specular="0.6 0.4 0.2" glossiness="2" />
+    <make_named_material type="blinn" name="dark_sand" ambient="0.4 0.4 0.4" diffuse="194 178 128"
+        specular="0.8 0.6 0.4" glossiness="2" />
+
+    <make_named_material type="blinn" name="sun_yellow" ambient="0.4 0.4 0.4" diffuse="255 255 0"
+        specular="0 0 0" glossiness="256" />
+    <make_named_material type="blinn" name="sun_orange" ambient="0.4 0.4 0.4" diffuse="255 185 0"
+        specular="0 0 0" glossiness="256" />
+
+    <!-- Objects -->
+    <object name="sun_yellow" type="sphere" center="50 47 73" radius="1.25" />
+    <!-- <object name="sun_orange" type="sphere" center="15 12 18" radius="1" /> -->
+
+    <object name="dark_sand" type="sphere" center="0 -5000 0" radius="5000" />
+
+    <!-- Pyramid -->
+    <object name="sand" type="box" max="40 2 40" min="-40 0 -40" />
+    <object name="sand" type="box" max="36 4 36" min="-36 2 -36" />
+    <object name="sand" type="box" max="32 6 32" min="-32 4 -32" />
+    <object name="sand" type="box" max="28 8 28" min="-28 6 -28" />
+    <object name="sand" type="box" max="24 10 24" min="-24 8 -24" />
+    <object name="sand" type="box" max="20 12 20" min="-20 10 -20" />
+    <object name="sand" type="box" max="16 14 16" min="-16 12 -16" />
+    <object name="sand" type="box" max="12 16 12" min="-12 14 -12" />
+    <object name="sand" type="box" max="8 18 8" min="-8 16 -8" />
+    <object name="sand" type="box" max="4 20 4" min="-4 18 -4" />
+
+    <object name="gold" type="sphere" center="0 22 0" radius="1" />
+
+    <world_end />
+</RT3>

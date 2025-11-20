@@ -1,0 +1,11 @@
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/CMakeFiles/edit_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/CMakeFiles/rebuild_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_tinyxml2/CMakeFiles/tinyxml2.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_tinyxml2/CMakeFiles/edit_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_tinyxml2/CMakeFiles/rebuild_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_lodepng/CMakeFiles/lodepng.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_lodepng/CMakeFiles/edit_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_lodepng/CMakeFiles/rebuild_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src/CMakeFiles/gcrt.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src/CMakeFiles/edit_cache.dir
+C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src/CMakeFiles/rebuild_cache.dir

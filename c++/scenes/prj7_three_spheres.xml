@@ -1,0 +1,46 @@
+<RT3>
+    <lookat look_from="0 7 -10" look_at="0 1 1" up="0 1 0" />
+    <camera type="perspective" fovy="45" />
+    <integrator type="blinn_phong" depth="2" />
+
+    <film type="image" w_res="800" h_res="600" filename="three_spheres_plane.png" img_type="png"/>
+
+    <!-- <lookat look_from="0 1 -5" look_at="0 1 1" up="0 1 0" />
+    <camera type="orthographic" screen_window="-4 4 -3 3" />
+    <integrator type="blinn_phong" depth="2" />
+
+    <film type="image" x_res="800" y_res="600" filename="three_spheres_plane_ortho.png" img_type="png" gamma_corrected="no" /> -->
+
+
+    <!-- The Scene -->
+    <world_begin />
+
+         <!-- The Background -->
+        <background type="4_colors" bl="153 204 255" tl="18 10 143" tr="18 10 143" br="153 204 255" />
+
+        <!-- Lights -->
+        <light_source type="directional" I="0.9 0.9 0.9" scale="1 1 1" from="3 0.8 -2" to="0 0 1" />
+        <light_source type="directional" I="0.6 0.6 0.4" scale="1 1 1" from="1 0.2 -4" to="-1 0 3" />
+
+        <!-- Material Library -->
+        <include filename="../scenes/materials.xml" />
+
+        <!-- Objects -->
+        
+        
+        <object type="sphere" name="redish" center="0 1 0" radius="1" />
+        
+        <object type="sphere" name="greenish" center="-2 1 3" radius="1" />
+        
+        <object type="sphere" name="gold" center="3 1.7 7" radius="1.7" />
+        
+        <object type="trianglemesh" name="gold"
+            ntriangles="2"
+            vertices="-4 0 4  4 0 4  4 0 -4  -4 0 -4"
+            indices="0 1 2   0 2 3"
+            normals="0 1 0  0 1 0  0 1 0  0 1 0 "
+            reverse_vertex_order="false"
+            backface_cull="false" />
+
+    <world_end />
+</RT3>

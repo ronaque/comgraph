@@ -1,0 +1,134 @@
+<RT3>
+        <!-- Materials -->
+        <!-- Top row spheres: specular variation -->
+        <make_named_material type="blinn" name="spec_0" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="0" />
+        <make_named_material type="blinn" name="spec_2" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="2" />
+        <make_named_material type="blinn" name="spec_4" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="4" />
+        <make_named_material type="blinn" name="spec_8" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="8" />
+        <make_named_material type="blinn" name="spec_16" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="16" />
+        <make_named_material type="blinn" name="spec_32" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="32" />
+        <make_named_material type="blinn" name="spec_64" ambient="0.2 0.2 0.2" diffuse="0.5 0.5 0.5"
+                specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0" glossiness="64" />
+        <make_named_material type="blinn" name="spec_128" ambient="0.2 0.2 0.2"
+                diffuse="0.5 0.5 0.5" specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0"
+                glossiness="128" />
+        <make_named_material type="blinn" name="spec_256" ambient="0.2 0.2 0.2"
+                diffuse="0.5 0.5 0.5" specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0"
+                glossiness="256" />
+        <make_named_material type="blinn" name="spec_512" ambient="0.2 0.2 0.2"
+                diffuse="0.5 0.5 0.5" specular="0.85 0.62 0.21" mirror="0.0 0.0 0.0"
+                glossiness="512" />
+
+        <!-- Middle row spheres: mirror variation -->
+        <make_named_material type="blinn" name="mirror_0" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.1 0.1 0.1"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_2" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.2 0.2 0.2"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_4" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.3 0.3 0.3"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_8" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.4 0.4 0.4"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_16" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.5 0.5 0.5"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_32" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.6 0.6 0.6"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_64" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.7 0.7 0.7"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_128" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.8 0.8 0.8"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_256" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="0.9 0.9 0.9"
+                glossiness="0" />
+        <make_named_material type="blinn" name="mirror_512" ambient="0.2 0.2 0.2"
+                diffuse="0.46 0.26 0.73" specular="0.85 0.62 0.21" mirror="1.0 1.0 1.0"
+                glossiness="0" />
+
+        <!-- Bottom row spheres: combining mirror/specular variation -->
+        <make_named_material type="blinn" name="mix_0" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.1 0.1 0.1" glossiness="0" />
+        <make_named_material type="blinn" name="mix_2" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.2 0.2 0.2" glossiness="2" />
+        <make_named_material type="blinn" name="mix_4" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.3 0.3 0.3" glossiness="4" />
+        <make_named_material type="blinn" name="mix_8" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.4 0.4 0.4" glossiness="8" />
+        <make_named_material type="blinn" name="mix_16" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.5 0.5 0.5" glossiness="16" />
+        <make_named_material type="blinn" name="mix_32" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.6 0.6 0.6" glossiness="32" />
+        <make_named_material type="blinn" name="mix_64" ambient="0.2 0.2 0.2" diffuse="1.0 0.16   0"
+                specular="0.85 0.62 0.21" mirror="0.7 0.7 0.7" glossiness="64" />
+        <make_named_material type="blinn" name="mix_128" ambient="0.2 0.2 0.2"
+                diffuse="1.0 0.16   0" specular="0.85 0.62 0.21" mirror="0.8 0.8 0.8"
+                glossiness="128" />
+        <make_named_material type="blinn" name="mix_256" ambient="0.2 0.2 0.2"
+                diffuse="1.0 0.16   0" specular="0.85 0.62 0.21" mirror="0.9 0.9 0.9"
+                glossiness="256" />
+        <make_named_material type="blinn" name="mix_512" ambient="0.2 0.2 0.2"
+                diffuse="1.0 0.16   0" specular="0.85 0.62 0.21" mirror="1.0 1.0 1.0"
+                glossiness="512" />
+
+        <!-- Colored materials -->
+        <!-- Grey -->
+        <make_named_material type="blinn" name="grey" ambient="0.1 0.1 0.1" diffuse="1 1 1"
+                specular="1 1 1" mirror="0 0 0" glossiness="128" />
+
+        <!-- Green -->
+        <make_named_material type="blinn" name="green" ambient="0.6 0.6 0.6" diffuse="0.52 0.7 0.33"
+                specular="0.8 0.8 0.8" mirror="0.7 0.7 0.7" glossiness="128" />
+
+        <!-- Pink -->
+        <make_named_material type="blinn" name="pink" ambient="0.6 0.6 0.6" diffuse="1.0 0.08 0.58"
+                specular="0.8 0.8 0.8" glossiness="256" />
+
+        <!-- Yellow -->
+        <make_named_material type="blinn" name="yellow" ambient="0.4 0.4 0.4"
+                diffuse="0.95 0.65 0.07" specular="0.8 0.6 0.2" glossiness="256" />
+
+        <!-- Redish -->
+        <make_named_material type="blinn" name="redish" ambient="0.6 0.6 0.6" diffuse="0.9 0.2 0.1"
+                specular="0.8 0.8 0.8" mirror="0.0 0.0 0.0" glossiness="64" />
+
+        <!-- Greenish -->
+        <make_named_material type="blinn" name="greenish" ambient="0.6 0.6 0.6"
+                diffuse="0.2 0.9 0.2" specular="0.8 0.8 0.8" mirror="0.0 0.0 0.0" glossiness="256" />
+
+        <!-- Blueish -->
+        <make_named_material type="blinn" name="blueish" ambient="0.6 0.6 0.6" diffuse="0.1 0.2 0.9"
+                specular="0.8 0.8 0.8" mirror="0.0 0.0 0.0" glossiness="16" />
+
+        <!-- Red 3 -->
+        <make_named_material type="blinn" name="red_3" ambient="0.6 0.6 0.6" diffuse="1 0.6 0.6"
+                specular="0.8 0.8 0.8" mirror="0.3 0.3 0.3" glossiness="64" />
+
+        <!-- Gold -->
+        <make_named_material type="blinn" name="gold" ambient="0.4 0.4 0.4" diffuse="1 0.65 0.0"
+                specular="0.8 0.6 0.2" mirror="0.0 0.0 0.0" glossiness="256" />
+
+        <!-- Jade -->
+        <make_named_material type="blinn" name="jade" ambient="0.6 0.6 0.6" diffuse="0 0.65 0.29"
+                specular="0.8 0.8 0.8" mirror="0.4 0.4 0.4" glossiness="128" />
+
+        <!-- Indigo -->
+        <make_named_material type="blinn" name="indigo" ambient="0.2 0.2 0.2" diffuse="51 0 102"
+                specular="0.9 0.9 0.9" mirror="0.1 0.1 0.1" glossiness="128" />
+
+        <!-- Salmon -->
+        <make_named_material type="blinn" name="salmon" ambient="0.6 0.6 0.6"
+                diffuse="1.0 0.64 0.68" specular="0.8 0.8 0.8" mirror="0.7 0.7 0.7" glossiness="128" />
+
+</RT3>

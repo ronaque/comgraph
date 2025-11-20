@@ -1,0 +1,34 @@
+<RT3>
+    <object type="sphere" name="spec_0" radius="0.4" center="-5 1 1" />
+    <object type="sphere" name="spec_2" radius="0.4" center="-4 1 1" />
+    <object type="sphere" name="spec_4" radius="0.4" center="-3 1 1" />
+    <object type="sphere" name="spec_8" radius="0.4" center="-2 1 1" />
+    <object type="sphere" name="spec_16" radius="0.4" center="-1 1 1" />
+    <object type="sphere" name="spec_32" radius="0.4" center="0 1 1" />
+    <object type="sphere" name="spec_64" radius="0.4" center="1 1 1" />
+    <object type="sphere" name="spec_128" radius="0.4" center="2 1 1" />
+    <object type="sphere" name="spec_256" radius="0.4" center="3 1 1" />
+    <object type="sphere" name="spec_512" radius="0.4" center="4 1 1" />
+
+    <object type="sphere" name="mirror_0" radius="0.4" center="-5 0 1" />
+    <object type="sphere" name="mirror_2" radius="0.4" center="-4 0 1" />
+    <object type="sphere" name="mirror_4" radius="0.4" center="-3 0 1" />
+    <object type="sphere" name="mirror_8" radius="0.4" center="-2 0 1" />
+    <object type="sphere" name="mirror_16" radius="0.4" center="-1 0 1" />
+    <object type="sphere" name="mirror_32" radius="0.4" center="0 0 1" />
+    <object type="sphere" name="mirror_64" radius="0.4" center="1 0 1" />
+    <object type="sphere" name="mirror_128" radius="0.4" center="2 0 1" />
+    <object type="sphere" name="mirror_256" radius="0.4" center="3 0 1" />
+    <object type="sphere" name="mirror_512" radius="0.4" center="4 0 1" />
+
+    <object type="sphere" name="mix_0" radius="0.4" center="-5 -1 1" />
+    <object type="sphere" name="mix_2" radius="0.4" center="-4 -1 1" />
+    <object type="sphere" name="mix_4" radius="0.4" center="-3 -1 1" />
+    <object type="sphere" name="mix_8" radius="0.4" center="-2 -1 1" />
+    <object type="sphere" name="mix_16" radius="0.4" center="-1 -1 1" />
+    <object type="sphere" name="mix_32" radius="0.4" center="0 -1 1" />
+    <object type="sphere" name="mix_64" radius="0.4" center="1 -1 1" />
+    <object type="sphere" name="mix_128" radius="0.4" center="2 -1 1" />
+    <object type="sphere" name="mix_256" radius="0.4" center="3 -1 1" />
+    <object type="sphere" name="mix_512" radius="0.4" center="4 -1 1" />
+</RT3>

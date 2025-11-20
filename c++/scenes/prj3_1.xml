@@ -1,0 +1,16 @@
+<RT3>
+    <lookat look_from="0 0 0" look_at="0 0 10" up="0 1 0" />
+    <camera type="perspective" fovy="65" />
+    <integrator type="flat"/>
+    <aggregator type="list"/>
+    <film type="image" w_res="800" h_res="600" filename="flat_spheres_persp.png" img_type="png" gamma_corrected="true" />
+
+    <world_begin/>
+        <!-- <background type="4_colors" bl="153 204 255" tl="18 10 143" tr="18 10 143" br="153 204 255" /> -->
+        <background type="4_colors" bl="176 214 175" tl="4 99 202" tr="4 99 202" br="176 214 175" />
+        <material type="flat" color="220 10 10" />
+        <object type="sphere" radius="0.4" center="-1 0.5 5" />
+        <object type="sphere" radius="0.4" center="1 -0.5 8" />
+        <object type="sphere" radius="0.4" center="-1.5 -1.5 3.5" />
+    <world_end/>
+</RT3>

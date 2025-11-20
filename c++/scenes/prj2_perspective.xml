@@ -1,0 +1,11 @@
+<RT3>
+    <!-- <lookat look_from="4 0 -4" look_at="-1 0 1" up="0 1 0" /> -->
+    <lookat look_from="0 0 -7" look_at="0 0 0" up="0 1 0" />
+    <camera type="perspective" fovy="50.0"/>
+    <integrator type="flat" />
+    <film type="image" w_res="200" h_res="100" filename="interpolated_bkg.png" img_type="png" gamma_corrected="true" />
+    <world_begin/>
+        <!-- This defines an interpolated background -->
+        <background type="4_colors" bl="247 152 127" tl="169 167 235" tr="119 114 182" br="252 83 61" />
+    <world_end/>
+</RT3>

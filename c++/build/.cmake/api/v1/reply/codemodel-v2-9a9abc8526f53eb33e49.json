@@ -1,0 +1,126 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "lib_tinyxml2",
+					"jsonFile" : "directory-lib_tinyxml2-Debug-4970a5c18900b117cc0f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib_tinyxml2",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "lib_lodepng",
+					"jsonFile" : "directory-lib_lodepng-Debug-c0cbe1b5aeff837fdd6d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "lib_lodepng",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-Debug-c94b7c2814d5a21df52c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.31"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "GCodexRT",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "gcrt::@145eef247bfb46b6828c",
+					"jsonFile" : "target-gcrt-Debug-ecf4b1ab25d33b42787b.json",
+					"name" : "gcrt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "lodepng::@6402f1c48888d7ac8475",
+					"jsonFile" : "target-lodepng-Debug-97ac81f0fe43bf9c9706.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tinyxml2::@2eff1b139ed24888e7fe",
+					"jsonFile" : "target-tinyxml2-Debug-ea21ec8e9435144d85ed.json",
+					"name" : "tinyxml2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build",
+		"source" : "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

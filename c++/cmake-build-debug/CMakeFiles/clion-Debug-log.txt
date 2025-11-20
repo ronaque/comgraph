@@ -1,0 +1,6 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\isaqu\Documents\Escolaridade\UF\BTI_BCC\Computacao_Grafica\projeto-ray-tracer-isaque-thuanny -B C:\Users\isaqu\Documents\Escolaridade\UF\BTI_BCC\Computacao_Grafica\projeto-ray-tracer-isaque-thuanny\cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.31 or higher is required.  You are running version 3.26.4
+
+
+-- Configuring incomplete, errors occurred!

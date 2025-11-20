@@ -1,0 +1,188 @@
+[
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_tinyxml2",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe  @CMakeFiles/tinyxml2.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\tinyxml2.dir\\tinyxml2.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\lib_tinyxml2\\tinyxml2.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/lib_tinyxml2/tinyxml2.cpp",
+  "output": "lib_tinyxml2/CMakeFiles/tinyxml2.dir/tinyxml2.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/lib_lodepng",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe  @CMakeFiles/lodepng.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\lodepng.dir\\lodepng.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\lib_lodepng\\lodepng.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/lib_lodepng/lodepng.cpp",
+  "output": "lib_lodepng/CMakeFiles/lodepng.dir/lodepng.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\cameras\\look_at.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\cameras\\look_at.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/cameras/look_at.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/cameras/look_at.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\cameras\\orthographic.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\cameras\\orthographic.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/cameras/orthographic.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/cameras/orthographic.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\cameras\\perspective.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\cameras\\perspective.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/cameras/perspective.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/cameras/perspective.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\app.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\app.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/app.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/app.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\background.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\background.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/background.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/background.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\builder.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\builder.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/builder.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/builder.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\converters.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\converters.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/converters.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/converters.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\film.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\film.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/film.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/film.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\image_io.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\image_io.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/image_io.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/image_io.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\main.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\main.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/main.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\ray.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\ray.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/ray.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/ray.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\core\\scene.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\core\\scene.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/core/scene.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/core/scene.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\__\\ext\\tiny_obj_loader.cc.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\ext\\tiny_obj_loader.cc",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/ext/tiny_obj_loader.cc",
+  "output": "src/CMakeFiles/gcrt.dir/__/ext/tiny_obj_loader.cc.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\integrators\\raycast_integrator.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\integrators\\raycast_integrator.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/integrators/raycast_integrator.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/integrators/raycast_integrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\integrators\\blinnphong_integrator.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\integrators\\blinnphong_integrator.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/integrators/blinnphong_integrator.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/integrators/blinnphong_integrator.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\light\\ambient_light.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\light\\ambient_light.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/light/ambient_light.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/light/ambient_light.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\light\\directional_light.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\light\\directional_light.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/light/directional_light.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/light/directional_light.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\light\\point_light.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\light\\point_light.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/light/point_light.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/light/point_light.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\light\\spot_light.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\light\\spot_light.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/light/spot_light.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/light/spot_light.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\light\\visibility_tester.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\light\\visibility_tester.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/light/visibility_tester.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/light/visibility_tester.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\math\\geometry.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\math\\geometry.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/math/geometry.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/math/geometry.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\msg_system\\error.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\msg_system\\error.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/msg_system/error.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/msg_system/error.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\box.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\box.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/box.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/box.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\material.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\material.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/material.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/material.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\plane.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\plane.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/plane.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/plane.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\primitive.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\primitive.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/primitive.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/primitive.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\sphere.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\sphere.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/sphere.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/sphere.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\surfel.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\surfel.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/surfel.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/surfel.cpp.obj"
+},
+{
+  "directory": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/build/src",
+  "command": "C:\\Bin\\MinGW\\bin\\g++.exe -DDEBUG_LEVEL=2 @CMakeFiles/gcrt.dir/includes_CXX.rsp  -g -g -Wall -pedantic -O3 -o CMakeFiles\\gcrt.dir\\primitive\\triangle.cpp.obj -c C:\\Users\\isaqu\\Documents\\Escolaridade\\UF\\BTI_BCC\\Computacao_Grafica\\projeto-ray-tracer-isaque-thuanny\\src\\primitive\\triangle.cpp",
+  "file": "C:/Users/isaqu/Documents/Escolaridade/UF/BTI_BCC/Computacao_Grafica/projeto-ray-tracer-isaque-thuanny/src/primitive/triangle.cpp",
+  "output": "src/CMakeFiles/gcrt.dir/primitive/triangle.cpp.obj"
+}
+]

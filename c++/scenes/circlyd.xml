@@ -1,0 +1,60 @@
+<RT3>
+    <lookat look_from="-15 4 0" look_at="0 3.23 0" up="0 1 0" />
+    <camera type="perspective" fovy="45" /> 
+    <integrator type="blinn_phong" depth="1" />
+    <film type="image" w_res="1920" h_res="1080" filename="circlyd.png" img_type="png" gamma_corrected="true" />
+
+    <!-- Objects storage -->
+    <aggregator type="list"/>
+
+    <!-- The Scene -->
+    <world_begin/>
+
+        <!-- The Background -->
+        <background type="4_colors" bl="255 215 100" tl="255 189 100" tr="189 109 0" br="189 152 0" />
+
+        <!-- Lights -->
+        <light_source type="ambient" I="0.1 0.1 0.1" scale="0.5 0.5 0.5" />
+        <light_source type="directional" I="0.7 0.7 0.7" scale="0.4 0.4 0.4" from="-20 15 0" to="0 0 0" />
+        <light_source type="point" I="0.6 0.6 0.6" scale="0.4 0.4 0.4" from="0 1 0" />
+
+        <!-- Material Library -->
+        <make_named_material type="blinn" name="gold"     ambient="0.4 0.4 0.4" diffuse ="1 0.65 0.0"   specular ="0.8 0.6 0.2"  glossiness ="256"/>
+        <make_named_material type="blinn" name="sand"     ambient="0.4 0.4 0.4" diffuse ="245 209 151"   specular ="0.6 0.4 0.2"  glossiness ="2"/>
+        <make_named_material type="blinn" name="dark_sand"     ambient="0.4 0.4 0.4" diffuse ="194 178 128"   specular ="0.8 0.6 0.4"  glossiness ="2"/>
+
+        <make_named_material type="blinn" name="sun_yellow"     ambient="0.4 0.4 0.4" diffuse ="255 255 0"   specular ="0 0 0"  glossiness ="256"/>
+        <make_named_material type="blinn" name="sun_orange"     ambient="0.4 0.4 0.4" diffuse ="255 185 0"   specular ="0 0 0"  glossiness ="256"/>
+
+        <!-- Objects -->
+        
+        <object name="sand" type="sphere" center="0 1 2" radius="1" />
+
+        <object name="sun_yellow" type="sphere" center="16 12.25 18.5" radius="1.25" />
+        <object name="sun_orange" type="sphere" center="15 12 18" radius="1" />
+        
+        <object name="dark_sand" type="sphere" center="0 -5000 0" radius="5000" />
+
+        <!-- Pyramid -->
+        <!-- Layer 1 -->
+        <object name="sand" type="sphere" center="0 1 2" radius="1" />
+        <object name="sand" type="sphere" center="0 1 -2" radius="1" />
+        <object name="sand" type="sphere" center="2 1 0" radius="1" />
+        <object name="sand" type="sphere" center="-2 1 0" radius="1" />
+        <object name="sand" type="sphere" center="2 1 2" radius="1" />
+        <object name="sand" type="sphere" center="-2 1 2" radius="1" />
+        <object name="sand" type="sphere" center="2 1 -2" radius="1" />
+        <object name="sand" type="sphere" center="-2 1 -2" radius="1" />
+
+        <!-- Layer 2 -->
+        <object name="sand" type="sphere" center="1 2.41 1" radius="1" />
+        <object name="sand" type="sphere" center="1 2.41 -1" radius="1" />
+        <object name="sand" type="sphere" center="-1 2.41 1" radius="1" />
+        <object name="sand" type="sphere" center="-1 2.41 -1" radius="1" />
+
+        <!-- Layer 3 -->
+        <object name="gold" type="sphere" center="0 3.82 0" radius="1" />
+        
+        <!-- <object type="plane" point="0 0 0" normal="0 1 0" /> -->
+    <world_end/>
+</RT3>
